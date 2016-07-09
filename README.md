@@ -1,2 +1,3 @@
 # SWSWeatherTest
-test
+ios 7.0
+ipone/ipad
