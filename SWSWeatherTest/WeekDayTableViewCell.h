@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class WeatherVo;
 @interface WeekDayTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *weekDayLabel;
+@property (weak, nonatomic) IBOutlet UILabel *temperatureLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *weatherImage;
+
+-(void)setCell:(WeatherVo*)weatherVo;
 @end

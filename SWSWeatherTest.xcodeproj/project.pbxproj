@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311342191D30EE740004A2EA /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 311342181D30EE740004A2EA /* RequestTool.m */; };
+		3113421C1D30FA110004A2EA /* WeatherVo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3113421B1D30FA110004A2EA /* WeatherVo.m */; };
+		3113421F1D30FC5A0004A2EA /* TiptVo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3113421E1D30FC5A0004A2EA /* TiptVo.m */; };
+		311342221D30FD010004A2EA /* CityWeatherVo.m in Sources */ = {isa = PBXBuildFile; fileRef = 311342211D30FD010004A2EA /* CityWeatherVo.m */; };
+		3113422B1D3120DC0004A2EA /* TiptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 311342291D3120DC0004A2EA /* TiptTableViewCell.m */; };
+		3113422C1D3120DC0004A2EA /* TiptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3113422A1D3120DC0004A2EA /* TiptTableViewCell.xib */; };
 		3154602D1D2FA6FF001895C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3154602C1D2FA6FF001895C5 /* main.m */; };
 		315460301D2FA6FF001895C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3154602F1D2FA6FF001895C5 /* AppDelegate.m */; };
 		315460331D2FA6FF001895C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315460321D2FA6FF001895C5 /* ViewController.m */; };
@@ -40,6 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311342171D30EE740004A2EA /* RequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTool.h; sourceTree = "<group>"; };
+		311342181D30EE740004A2EA /* RequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTool.m; sourceTree = "<group>"; };
+		3113421A1D30FA110004A2EA /* WeatherVo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherVo.h; sourceTree = "<group>"; };
+		3113421B1D30FA110004A2EA /* WeatherVo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherVo.m; sourceTree = "<group>"; };
+		3113421D1D30FC5A0004A2EA /* TiptVo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiptVo.h; sourceTree = "<group>"; };
+		3113421E1D30FC5A0004A2EA /* TiptVo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiptVo.m; sourceTree = "<group>"; };
+		311342201D30FD010004A2EA /* CityWeatherVo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityWeatherVo.h; sourceTree = "<group>"; };
+		311342211D30FD010004A2EA /* CityWeatherVo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityWeatherVo.m; sourceTree = "<group>"; };
+		311342281D3120DC0004A2EA /* TiptTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiptTableViewCell.h; sourceTree = "<group>"; };
+		311342291D3120DC0004A2EA /* TiptTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiptTableViewCell.m; sourceTree = "<group>"; };
+		3113422A1D3120DC0004A2EA /* TiptTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiptTableViewCell.xib; sourceTree = "<group>"; };
 		315460281D2FA6FE001895C5 /* SWSWeatherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWSWeatherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3154602C1D2FA6FF001895C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3154602E1D2FA6FF001895C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +152,9 @@
 				315460321D2FA6FF001895C5 /* ViewController.m */,
 				315460831D2FCA8E001895C5 /* WeatherViewController.h */,
 				315460841D2FCA8E001895C5 /* WeatherViewController.m */,
+				311342281D3120DC0004A2EA /* TiptTableViewCell.h */,
+				311342291D3120DC0004A2EA /* TiptTableViewCell.m */,
+				3113422A1D3120DC0004A2EA /* TiptTableViewCell.xib */,
 				3154608A1D2FF51C001895C5 /* WeekDayTableViewCell.h */,
 				3154608B1D2FF51C001895C5 /* WeekDayTableViewCell.m */,
 				3154608C1D2FF51C001895C5 /* WeekDayTableViewCell.xib */,
@@ -177,6 +197,12 @@
 		3154607B1D2FBEEF001895C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3113421A1D30FA110004A2EA /* WeatherVo.h */,
+				3113421B1D30FA110004A2EA /* WeatherVo.m */,
+				3113421D1D30FC5A0004A2EA /* TiptVo.h */,
+				3113421E1D30FC5A0004A2EA /* TiptVo.m */,
+				311342201D30FD010004A2EA /* CityWeatherVo.h */,
+				311342211D30FD010004A2EA /* CityWeatherVo.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +210,8 @@
 		3154607C1D2FBEEF001895C5 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				311342171D30EE740004A2EA /* RequestTool.h */,
+				311342181D30EE740004A2EA /* RequestTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -307,6 +335,7 @@
 			files = (
 				315460891D2FD06F001895C5 /* storm-010@2x.png in Resources */,
 				3154603B1D2FA6FF001895C5 /* LaunchScreen.storyboard in Resources */,
+				3113422C1D3120DC0004A2EA /* TiptTableViewCell.xib in Resources */,
 				315460381D2FA6FF001895C5 /* Assets.xcassets in Resources */,
 				3154608E1D2FF51C001895C5 /* WeekDayTableViewCell.xib in Resources */,
 				315460361D2FA6FF001895C5 /* Main.storyboard in Resources */,
@@ -383,7 +412,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3154608D1D2FF51C001895C5 /* WeekDayTableViewCell.m in Sources */,
+				311342221D30FD010004A2EA /* CityWeatherVo.m in Sources */,
+				3113421F1D30FC5A0004A2EA /* TiptVo.m in Sources */,
+				311342191D30EE740004A2EA /* RequestTool.m in Sources */,
+				3113422B1D3120DC0004A2EA /* TiptTableViewCell.m in Sources */,
 				315460331D2FA6FF001895C5 /* ViewController.m in Sources */,
+				3113421C1D30FA110004A2EA /* WeatherVo.m in Sources */,
 				315460851D2FCA8E001895C5 /* WeatherViewController.m in Sources */,
 				315460301D2FA6FF001895C5 /* AppDelegate.m in Sources */,
 				3154602D1D2FA6FF001895C5 /* main.m in Sources */,
@@ -462,7 +496,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -508,7 +542,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -530,6 +564,7 @@
 			baseConfigurationReference = 356FCF6EF2E65D12CF228630 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = SWSWeatherTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sws.SWSWeatherTest;
@@ -542,6 +577,7 @@
 			baseConfigurationReference = 43C39804F967DC9FEB958AE8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = SWSWeatherTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sws.SWSWeatherTest;
