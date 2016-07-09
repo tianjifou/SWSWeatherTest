@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WeatherViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
-
+@property(nonatomic,copy)NSString*city;
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "WeekDayTableViewCell.h"
-
+#import "WeatherVo.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 @implementation WeekDayTableViewCell
 
 - (void)awakeFromNib {
@@ -15,6 +16,11 @@
     // Initialization code
 }
 
+-(void)setCell:(WeatherVo*)weatherVo {
+    _weekDayLabel.text = [weatherVo.s_date substringToIndex:2];
+    [_weatherImage sd_setImageWithURL:[NSURL URLWithString:weatherVo.s_dayPictureUrl]];
+    _temperatureLabel.text = weatherVo.s_temperature;
+}
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

@@ -15,7 +15,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="107.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="星期一" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEF-eZ-O8w">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星期一" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEF-eZ-O8w">
                         <rect key="frame" x="21" y="37" width="63" height="21"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="63" id="2xB-hJ-LzQ"/>
@@ -33,9 +33,9 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22-30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRX-ru-ddC">
-                        <rect key="frame" x="229" y="43.5" width="73" height="21"/>
+                        <rect key="frame" x="202" y="43.5" width="100" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="73" id="m2r-up-P8V"/>
+                            <constraint firstAttribute="width" constant="100" id="m2r-up-P8V"/>
                             <constraint firstAttribute="height" constant="21" id="tme-0m-B8W"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -46,13 +46,15 @@
                 <constraints>
                     <constraint firstItem="Pud-SD-wMB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="MO3-4m-dQ5"/>
                     <constraint firstItem="KRX-ru-ddC" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="-10" id="MbR-Pp-U6Z"/>
-                    <constraint firstItem="xEF-eZ-O8w" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Nyb-FI-aIi"/>
-                    <constraint firstAttribute="leadingMargin" secondItem="xEF-eZ-O8w" secondAttribute="leading" constant="-10" id="ZB5-1A-6g2"/>
+                    <constraint firstItem="xEF-eZ-O8w" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-6.25" id="Nyb-FI-aIi"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="xEF-eZ-O8w" secondAttribute="leading" constant="-13" id="ZB5-1A-6g2"/>
                     <constraint firstItem="Pud-SD-wMB" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="jxf-Gq-Fxn"/>
                     <constraint firstItem="KRX-ru-ddC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vWI-RN-PRG"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="temperatureLabel" destination="KRX-ru-ddC" id="7X0-HJ-Idu"/>
+                <outlet property="weatherImage" destination="Pud-SD-wMB" id="71E-jB-brA"/>
                 <outlet property="weekDayLabel" destination="xEF-eZ-O8w" id="Rbx-6y-C5f"/>
             </connections>
             <point key="canvasLocation" x="373" y="283"/>
