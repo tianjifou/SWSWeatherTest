@@ -39,7 +39,7 @@
     [self.view addSubview:backImageView];
     
     labelT = [[UILabel alloc]init];
-    labelT.text = @"0°c";
+    labelT.text = @"0°F";
     labelT.textColor = [UIColor whiteColor];
     labelT.font = [UIFont systemFontOfSize:30];
     labelT.textAlignment = NSTextAlignmentCenter;
@@ -96,7 +96,7 @@
                     UILabel *label = (UILabel *)obj;
                     NSNumber *number = @(values[0]);
                     int num = [number intValue];
-                    label.text = [[@(num) stringValue] stringByAppendingString:@"°c"];
+                    label.text = [[@(num) stringValue] stringByAppendingString:@"°F"];
                     
                 };
             }];
