@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <Masonry/Masonry.h>
 #import "WeatherViewController.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 @interface ViewController ()<UITextFieldDelegate>
 {
     UITextField*textField;
@@ -51,6 +52,18 @@
          make.size.mas_equalTo(CGSizeMake(200, 40));
     }];
     
+    //ReactiveCocoa监听
+    [[textField.rac_textSignal filter:^BOOL(NSString*str) {
+        if (str.length > 20) {
+            
+            return YES;
+        } else {
+            return NO;
+        }
+    }] subscribeNext:^(NSString*str) {
+        textField.text = @"";
+        [self alertView];
+    }];
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
