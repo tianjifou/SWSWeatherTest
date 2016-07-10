@@ -42,6 +42,7 @@
     labelT.text = @"0°c";
     labelT.textColor = [UIColor whiteColor];
     labelT.font = [UIFont systemFontOfSize:30];
+    labelT.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:labelT];
     [labelT mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.view);

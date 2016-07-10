@@ -5,3 +5,4 @@
 
     pod 'pop', '~> 1.0.7'
     pod 'Masonry', '~> 0.6.1'
+    pod 'ReactiveCocoa'
